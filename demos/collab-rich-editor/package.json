@@ -1,0 +1,21 @@
+{
+  "name": "collab-rich-editor",
+  "version": "0.1.0",
+  "description": "A rich text editor based on Quill and collab-web-forms",
+  "private": true,
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "express": "^4.15.2",
+    "mongodb": "^2.2.26",
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "node server.js & react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
